@@ -370,10 +370,10 @@
   var CONFIG = {
     actionUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfyPWkET79yIGfenM_1BZvPhE556fvNgKgLWiyFMRZErGQizw/viewform?usp=pp_url&entry.553841886=df+ff&entry.1322876227=dfdfsf&entry.329279913=trtgf&entry.1241909208=dfdfs",
     entries: {
-      fullName: "entry.111111111",
-      email: "entry.222222222",
-      country: "entry.333333333",
-      state: "entry.444444444"
+      fullName: "entry.553841886",
+      email: "entry.1322876227",
+      country: "entry.329279913",
+      state: "entry.1241909208"
     }
   };
 
@@ -383,7 +383,7 @@
   document.getElementById('g_country').name = CONFIG.entries.country;
   document.getElementById('g_state').name = CONFIG.entries.state;
 
-  var isConfigured = CONFIG.actionUrl.indexOf('REPLACE_WITH_YOUR_FORM_ID') === -1;
+  var isConfigured = CONFIG.actionUrl.indexOf('1FAIpQLSfyPWkET79yIGfenM_1BZvPhE556fvNgKgLWiyFMRZErGQizw') === -1;
 
   /* ---- nav scroll style ---- */
   var nav = document.getElementById('nav');
